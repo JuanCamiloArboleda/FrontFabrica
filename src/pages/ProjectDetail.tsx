@@ -23,7 +23,7 @@ const ProjectDetail: React.FC = () => {
 
     const isAdmin = user?.role === "admin";
     const isTeacher = user?.role === "docente";
-    const isUsuario = user?.role === "usuario" || user?.role === "usuario2";
+    const isUsuario = user?.role === "usuario";
     const isViewer = user?.role === "usuario3";
 
     if (!project) {
